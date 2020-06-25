@@ -1,2 +1,2 @@
 # randomdeveloper7.github.io
-A repository for web development and python
+New repository for web development and python
