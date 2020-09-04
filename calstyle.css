@@ -1,0 +1,68 @@
+body{
+	background: url("imgs/mountain.jpg");
+	background-size: cover;
+	opacity: 80%;
+}
+
+
+table{
+	position: relative;
+	top: 10px;
+	left: 320px;
+	border: solid 3px black;
+	border-radius: 0px 0px 25px 25px;
+	border-spacing: 0;
+}
+caption{
+	border-radius: 25px 25px 0 0;
+	background-color: #808080;
+	font-size: 30px;
+	font-weight: bolder;
+	color: #FFFFFF;
+
+}
+tr:last-child td:first-child{
+	border-radius: 0 0 0 23px;
+}
+tr:last-child td:last-child{
+	border-radius: 0 0 23px 0;
+}
+
+tr:nth-child(odd){
+	background-color: #66B2FF;
+}
+tr:nth-child(even){
+	background-color: #CCE5FF; 
+}
+tr:first-child{
+	background-color: initial;
+}
+tr th{
+	font-weight: bold;
+	text-align: center;
+}
+td{
+	font-size: 20px;
+	vertical-align: top;
+	width: 90px;
+	height: 90px;
+}
+td.Holiday{
+	font-weight: bold;
+	color: #FF0000;
+}
+td.Old{
+	color: #808080;
+}
+span{
+	visibility: hidden;
+	display: block;
+	text-align: center;
+	font-weight: initial;
+	color: #000000;
+}
+td
+td:active>span{
+
+	visibility: visible; 
+}
