@@ -1,4 +1,5 @@
 #python 3
+#While running the code please remember to take the inputs in 2 seperate lines (n in one line and r in another)
 def Combination(n, r):
     """
     function to calculate ncr recursively 
